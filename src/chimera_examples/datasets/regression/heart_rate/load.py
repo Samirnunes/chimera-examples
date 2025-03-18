@@ -28,6 +28,8 @@ def load_heart_rate(num_partitions: int) -> None:
     X = pd.read_csv(Path(__file__).resolve().parent / "X_train.csv")
     y = pd.read_csv(Path(__file__).resolve().parent / "y_train.csv")
 
+    X.drop("uuid", axis="columns", inplace=True)
+
     data_len = len(X)
     partition_size = data_len // num_partitions
     remainder = data_len % num_partitions
