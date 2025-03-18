@@ -28,4 +28,4 @@ for i in range(0, SAMPLES):
 
     end = time.time()
 
-    logger.info(f"{i},{end - begin}")
+    logger.info(f"{i + 1},{end - begin}")
