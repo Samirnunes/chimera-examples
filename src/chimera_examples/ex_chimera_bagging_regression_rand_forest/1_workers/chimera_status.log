@@ -1,0 +1,4 @@
+Network chimera-network already exists. Skipping creation.
+Successfully built 'tree1' docker image.
+Successfully ran 'tree1' container.
+Serving AggregationMaster at port 8082...

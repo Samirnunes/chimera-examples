@@ -1,0 +1,232 @@
+Network chimera-network already exists. Skipping creation.
+Successfully built 'sgd1' docker image.
+Successfully ran 'sgd1' container.
+Added DNS entry 'sgd2:192.168.10.3' to container 'sgd1'.
+Added DNS entry 'sgd3:192.168.10.4' to container 'sgd1'.
+Added DNS entry 'sgd4:192.168.10.5' to container 'sgd1'.
+Added DNS entry 'sgd5:192.168.10.6' to container 'sgd1'.
+Successfully built 'sgd2' docker image.
+Successfully ran 'sgd2' container.
+Added DNS entry 'sgd1:192.168.10.2' to container 'sgd2'.
+Added DNS entry 'sgd3:192.168.10.4' to container 'sgd2'.
+Added DNS entry 'sgd4:192.168.10.5' to container 'sgd2'.
+Added DNS entry 'sgd5:192.168.10.6' to container 'sgd2'.
+Successfully built 'sgd3' docker image.
+Successfully ran 'sgd3' container.
+Added DNS entry 'sgd1:192.168.10.2' to container 'sgd3'.
+Added DNS entry 'sgd2:192.168.10.3' to container 'sgd3'.
+Added DNS entry 'sgd4:192.168.10.5' to container 'sgd3'.
+Added DNS entry 'sgd5:192.168.10.6' to container 'sgd3'.
+Successfully built 'sgd4' docker image.
+Successfully ran 'sgd4' container.
+Added DNS entry 'sgd1:192.168.10.2' to container 'sgd4'.
+Added DNS entry 'sgd2:192.168.10.3' to container 'sgd4'.
+Added DNS entry 'sgd3:192.168.10.4' to container 'sgd4'.
+Added DNS entry 'sgd5:192.168.10.6' to container 'sgd4'.
+Successfully built 'sgd5' docker image.
+Successfully ran 'sgd5' container.
+Added DNS entry 'sgd1:192.168.10.2' to container 'sgd5'.
+Added DNS entry 'sgd2:192.168.10.3' to container 'sgd5'.
+Added DNS entry 'sgd3:192.168.10.4' to container 'sgd5'.
+Added DNS entry 'sgd4:192.168.10.5' to container 'sgd5'.
+Serving ParameterServerMaster at port 8080...
+Computing SGD iteration 1 at ParameterServerMaster
+Computing SGD iteration 2 at ParameterServerMaster
+Computing SGD iteration 3 at ParameterServerMaster
+Computing SGD iteration 4 at ParameterServerMaster
+Computing SGD iteration 5 at ParameterServerMaster
+Computing SGD iteration 6 at ParameterServerMaster
+Computing SGD iteration 7 at ParameterServerMaster
+Computing SGD iteration 8 at ParameterServerMaster
+Computing SGD iteration 9 at ParameterServerMaster
+Computing SGD iteration 10 at ParameterServerMaster
+Computing SGD iteration 11 at ParameterServerMaster
+Computing SGD iteration 12 at ParameterServerMaster
+Computing SGD iteration 13 at ParameterServerMaster
+Computing SGD iteration 14 at ParameterServerMaster
+Computing SGD iteration 15 at ParameterServerMaster
+Computing SGD iteration 16 at ParameterServerMaster
+Computing SGD iteration 17 at ParameterServerMaster
+Computing SGD iteration 18 at ParameterServerMaster
+Computing SGD iteration 19 at ParameterServerMaster
+Computing SGD iteration 20 at ParameterServerMaster
+Computing SGD iteration 21 at ParameterServerMaster
+Computing SGD iteration 22 at ParameterServerMaster
+Computing SGD iteration 23 at ParameterServerMaster
+Computing SGD iteration 24 at ParameterServerMaster
+Computing SGD iteration 25 at ParameterServerMaster
+Computing SGD iteration 26 at ParameterServerMaster
+Computing SGD iteration 27 at ParameterServerMaster
+Computing SGD iteration 28 at ParameterServerMaster
+Computing SGD iteration 29 at ParameterServerMaster
+Computing SGD iteration 30 at ParameterServerMaster
+Computing SGD iteration 31 at ParameterServerMaster
+Computing SGD iteration 32 at ParameterServerMaster
+Computing SGD iteration 33 at ParameterServerMaster
+Computing SGD iteration 34 at ParameterServerMaster
+Computing SGD iteration 35 at ParameterServerMaster
+Computing SGD iteration 36 at ParameterServerMaster
+Computing SGD iteration 37 at ParameterServerMaster
+Computing SGD iteration 38 at ParameterServerMaster
+Computing SGD iteration 39 at ParameterServerMaster
+Computing SGD iteration 40 at ParameterServerMaster
+Computing SGD iteration 41 at ParameterServerMaster
+Computing SGD iteration 42 at ParameterServerMaster
+Computing SGD iteration 43 at ParameterServerMaster
+Computing SGD iteration 44 at ParameterServerMaster
+Computing SGD iteration 45 at ParameterServerMaster
+Computing SGD iteration 46 at ParameterServerMaster
+Computing SGD iteration 47 at ParameterServerMaster
+Computing SGD iteration 48 at ParameterServerMaster
+Computing SGD iteration 49 at ParameterServerMaster
+Computing SGD iteration 50 at ParameterServerMaster
+Computing SGD iteration 51 at ParameterServerMaster
+Computing SGD iteration 52 at ParameterServerMaster
+Computing SGD iteration 53 at ParameterServerMaster
+Computing SGD iteration 54 at ParameterServerMaster
+Computing SGD iteration 55 at ParameterServerMaster
+Computing SGD iteration 56 at ParameterServerMaster
+Computing SGD iteration 57 at ParameterServerMaster
+Computing SGD iteration 58 at ParameterServerMaster
+Computing SGD iteration 59 at ParameterServerMaster
+Computing SGD iteration 60 at ParameterServerMaster
+Computing SGD iteration 61 at ParameterServerMaster
+Computing SGD iteration 62 at ParameterServerMaster
+Computing SGD iteration 63 at ParameterServerMaster
+Computing SGD iteration 64 at ParameterServerMaster
+Computing SGD iteration 65 at ParameterServerMaster
+Computing SGD iteration 66 at ParameterServerMaster
+Computing SGD iteration 67 at ParameterServerMaster
+Computing SGD iteration 68 at ParameterServerMaster
+Computing SGD iteration 69 at ParameterServerMaster
+Computing SGD iteration 70 at ParameterServerMaster
+Computing SGD iteration 71 at ParameterServerMaster
+Computing SGD iteration 72 at ParameterServerMaster
+Computing SGD iteration 73 at ParameterServerMaster
+Computing SGD iteration 74 at ParameterServerMaster
+Computing SGD iteration 75 at ParameterServerMaster
+Computing SGD iteration 76 at ParameterServerMaster
+Computing SGD iteration 77 at ParameterServerMaster
+Computing SGD iteration 78 at ParameterServerMaster
+Computing SGD iteration 79 at ParameterServerMaster
+Computing SGD iteration 80 at ParameterServerMaster
+Computing SGD iteration 81 at ParameterServerMaster
+Computing SGD iteration 82 at ParameterServerMaster
+Computing SGD iteration 83 at ParameterServerMaster
+Computing SGD iteration 84 at ParameterServerMaster
+Computing SGD iteration 85 at ParameterServerMaster
+Computing SGD iteration 86 at ParameterServerMaster
+Computing SGD iteration 87 at ParameterServerMaster
+Computing SGD iteration 88 at ParameterServerMaster
+Computing SGD iteration 89 at ParameterServerMaster
+Computing SGD iteration 90 at ParameterServerMaster
+Computing SGD iteration 91 at ParameterServerMaster
+Computing SGD iteration 92 at ParameterServerMaster
+Computing SGD iteration 93 at ParameterServerMaster
+Computing SGD iteration 94 at ParameterServerMaster
+Computing SGD iteration 95 at ParameterServerMaster
+Computing SGD iteration 96 at ParameterServerMaster
+Computing SGD iteration 97 at ParameterServerMaster
+Computing SGD iteration 98 at ParameterServerMaster
+Computing SGD iteration 99 at ParameterServerMaster
+Computing SGD iteration 100 at ParameterServerMaster
+Computing SGD iteration 101 at ParameterServerMaster
+Computing SGD iteration 102 at ParameterServerMaster
+Computing SGD iteration 103 at ParameterServerMaster
+Computing SGD iteration 104 at ParameterServerMaster
+Computing SGD iteration 105 at ParameterServerMaster
+Computing SGD iteration 106 at ParameterServerMaster
+Computing SGD iteration 107 at ParameterServerMaster
+Computing SGD iteration 108 at ParameterServerMaster
+Computing SGD iteration 109 at ParameterServerMaster
+Computing SGD iteration 110 at ParameterServerMaster
+Computing SGD iteration 111 at ParameterServerMaster
+Computing SGD iteration 112 at ParameterServerMaster
+Computing SGD iteration 113 at ParameterServerMaster
+Computing SGD iteration 114 at ParameterServerMaster
+Computing SGD iteration 115 at ParameterServerMaster
+Computing SGD iteration 116 at ParameterServerMaster
+Computing SGD iteration 117 at ParameterServerMaster
+Computing SGD iteration 118 at ParameterServerMaster
+Computing SGD iteration 119 at ParameterServerMaster
+Computing SGD iteration 120 at ParameterServerMaster
+Computing SGD iteration 121 at ParameterServerMaster
+Computing SGD iteration 122 at ParameterServerMaster
+Computing SGD iteration 123 at ParameterServerMaster
+Computing SGD iteration 124 at ParameterServerMaster
+Computing SGD iteration 125 at ParameterServerMaster
+Computing SGD iteration 126 at ParameterServerMaster
+Computing SGD iteration 127 at ParameterServerMaster
+Computing SGD iteration 128 at ParameterServerMaster
+Computing SGD iteration 129 at ParameterServerMaster
+Computing SGD iteration 130 at ParameterServerMaster
+Computing SGD iteration 131 at ParameterServerMaster
+Computing SGD iteration 132 at ParameterServerMaster
+Computing SGD iteration 133 at ParameterServerMaster
+Computing SGD iteration 134 at ParameterServerMaster
+Computing SGD iteration 135 at ParameterServerMaster
+Computing SGD iteration 136 at ParameterServerMaster
+Computing SGD iteration 137 at ParameterServerMaster
+Computing SGD iteration 138 at ParameterServerMaster
+Computing SGD iteration 139 at ParameterServerMaster
+Computing SGD iteration 140 at ParameterServerMaster
+Computing SGD iteration 141 at ParameterServerMaster
+Computing SGD iteration 142 at ParameterServerMaster
+Computing SGD iteration 143 at ParameterServerMaster
+Computing SGD iteration 144 at ParameterServerMaster
+Computing SGD iteration 145 at ParameterServerMaster
+Computing SGD iteration 146 at ParameterServerMaster
+Computing SGD iteration 147 at ParameterServerMaster
+Computing SGD iteration 148 at ParameterServerMaster
+Computing SGD iteration 149 at ParameterServerMaster
+Computing SGD iteration 150 at ParameterServerMaster
+Computing SGD iteration 151 at ParameterServerMaster
+Computing SGD iteration 152 at ParameterServerMaster
+Computing SGD iteration 153 at ParameterServerMaster
+Computing SGD iteration 154 at ParameterServerMaster
+Computing SGD iteration 155 at ParameterServerMaster
+Computing SGD iteration 156 at ParameterServerMaster
+Computing SGD iteration 157 at ParameterServerMaster
+Computing SGD iteration 158 at ParameterServerMaster
+Computing SGD iteration 159 at ParameterServerMaster
+Computing SGD iteration 160 at ParameterServerMaster
+Computing SGD iteration 161 at ParameterServerMaster
+Computing SGD iteration 162 at ParameterServerMaster
+Computing SGD iteration 163 at ParameterServerMaster
+Computing SGD iteration 164 at ParameterServerMaster
+Computing SGD iteration 165 at ParameterServerMaster
+Computing SGD iteration 166 at ParameterServerMaster
+Computing SGD iteration 167 at ParameterServerMaster
+Computing SGD iteration 168 at ParameterServerMaster
+Computing SGD iteration 169 at ParameterServerMaster
+Computing SGD iteration 170 at ParameterServerMaster
+Computing SGD iteration 171 at ParameterServerMaster
+Computing SGD iteration 172 at ParameterServerMaster
+Computing SGD iteration 173 at ParameterServerMaster
+Computing SGD iteration 174 at ParameterServerMaster
+Computing SGD iteration 175 at ParameterServerMaster
+Computing SGD iteration 176 at ParameterServerMaster
+Computing SGD iteration 177 at ParameterServerMaster
+Computing SGD iteration 178 at ParameterServerMaster
+Computing SGD iteration 179 at ParameterServerMaster
+Computing SGD iteration 180 at ParameterServerMaster
+Computing SGD iteration 181 at ParameterServerMaster
+Computing SGD iteration 182 at ParameterServerMaster
+Computing SGD iteration 183 at ParameterServerMaster
+Computing SGD iteration 184 at ParameterServerMaster
+Computing SGD iteration 185 at ParameterServerMaster
+Computing SGD iteration 186 at ParameterServerMaster
+Computing SGD iteration 187 at ParameterServerMaster
+Computing SGD iteration 188 at ParameterServerMaster
+Computing SGD iteration 189 at ParameterServerMaster
+Computing SGD iteration 190 at ParameterServerMaster
+Computing SGD iteration 191 at ParameterServerMaster
+Computing SGD iteration 192 at ParameterServerMaster
+Computing SGD iteration 193 at ParameterServerMaster
+Computing SGD iteration 194 at ParameterServerMaster
+Computing SGD iteration 195 at ParameterServerMaster
+Computing SGD iteration 196 at ParameterServerMaster
+Computing SGD iteration 197 at ParameterServerMaster
+Computing SGD iteration 198 at ParameterServerMaster
+Computing SGD iteration 199 at ParameterServerMaster
+Computing SGD iteration 200 at ParameterServerMaster

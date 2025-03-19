@@ -1,0 +1,104 @@
+Network chimera-network already exists. Skipping creation.
+Successfully built 'tree1' docker image.
+Successfully ran 'tree1' container.
+Added DNS entry 'tree2:192.168.10.3' to container 'tree1'.
+Added DNS entry 'tree3:192.168.10.4' to container 'tree1'.
+Successfully built 'tree2' docker image.
+Successfully ran 'tree2' container.
+Added DNS entry 'tree1:192.168.10.2' to container 'tree2'.
+Added DNS entry 'tree3:192.168.10.4' to container 'tree2'.
+Successfully built 'tree3' docker image.
+Successfully ran 'tree3' container.
+Added DNS entry 'tree1:192.168.10.2' to container 'tree3'.
+Added DNS entry 'tree2:192.168.10.3' to container 'tree3'.
+Serving AggregationMaster at port 8082...
+Error at AggregationMaster: could not convert string to float: '59b7fe2e-ef27-486c-9ebb-ee74796c2469'
+Error fetching fit from worker at port 81: could not convert string to float: '59b7fe2e-ef27-486c-9ebb-ee74796c2469'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '7f99359f-5183-41fb-a08d-1b965d98a6a4'
+Error fetching fit from worker at port 81: could not convert string to float: '7f99359f-5183-41fb-a08d-1b965d98a6a4'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '2ef91875-604f-41f2-9448-f42c3a51c22b'
+Error fetching fit from worker at port 81: could not convert string to float: '2ef91875-604f-41f2-9448-f42c3a51c22b'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '3c4e76b1-7dcb-487c-b15a-5a16cb869e6e'
+Error fetching fit from worker at port 81: could not convert string to float: '3c4e76b1-7dcb-487c-b15a-5a16cb869e6e'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'a8105610-c9df-4bdf-aada-aef2a1b974f5'
+Error fetching fit from worker at port 81: could not convert string to float: 'a8105610-c9df-4bdf-aada-aef2a1b974f5'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'cc3b9078-f0c6-4632-bad3-3cc251d8becd'
+Error fetching fit from worker at port 81: could not convert string to float: 'cc3b9078-f0c6-4632-bad3-3cc251d8becd'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '7276e4fc-e275-4125-89bb-cb0c296ea520'
+Error fetching fit from worker at port 81: could not convert string to float: '7276e4fc-e275-4125-89bb-cb0c296ea520'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '3535e2ee-f550-4f4d-91d7-206f50402455'
+Error fetching fit from worker at port 81: could not convert string to float: '3535e2ee-f550-4f4d-91d7-206f50402455'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '6f296c39-9db4-4ce7-b008-52728629d64c'
+Error fetching fit from worker at port 81: could not convert string to float: '6f296c39-9db4-4ce7-b008-52728629d64c'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '86c48790-e2ed-47fb-8194-c9628cd83546'
+Error fetching fit from worker at port 81: could not convert string to float: '86c48790-e2ed-47fb-8194-c9628cd83546'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'e0c6f627-16ff-4049-be7e-8075665e93a3'
+Error fetching fit from worker at port 81: could not convert string to float: 'e0c6f627-16ff-4049-be7e-8075665e93a3'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'da565848-45b0-4fe2-9d29-005a4a42f011'
+Error fetching fit from worker at port 81: could not convert string to float: 'da565848-45b0-4fe2-9d29-005a4a42f011'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'e43b83a5-7194-4129-b624-e2eb0f968c20'
+Error fetching fit from worker at port 81: could not convert string to float: 'e43b83a5-7194-4129-b624-e2eb0f968c20'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '0e666a82-da45-4759-91cd-1eb621823dcb'
+Error fetching fit from worker at port 81: could not convert string to float: '0e666a82-da45-4759-91cd-1eb621823dcb'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '8bf535d1-b26a-40cf-b62d-d12aa7fe25ef'
+Error fetching fit from worker at port 81: could not convert string to float: '8bf535d1-b26a-40cf-b62d-d12aa7fe25ef'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '376272b3-f89b-4f0f-b5e2-c3e8e40ca51b'
+Error fetching fit from worker at port 81: could not convert string to float: '376272b3-f89b-4f0f-b5e2-c3e8e40ca51b'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'd1b2ce16-120c-447f-ab44-59221375f2e1'
+Error fetching fit from worker at port 81: could not convert string to float: 'd1b2ce16-120c-447f-ab44-59221375f2e1'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'd2773055-ac96-4202-9f29-8cf1ee5cdefe'
+Error fetching fit from worker at port 81: could not convert string to float: 'd2773055-ac96-4202-9f29-8cf1ee5cdefe'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'a9ca22e1-9d27-41b7-bafc-d7ed969b2bcd'
+Error fetching fit from worker at port 81: could not convert string to float: 'a9ca22e1-9d27-41b7-bafc-d7ed969b2bcd'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '1184eaff-3fd7-46f6-ac62-b0f8322f4c87'
+Error fetching fit from worker at port 81: could not convert string to float: '1184eaff-3fd7-46f6-ac62-b0f8322f4c87'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '94e413e5-9a44-440a-960e-8ef8ced6f421'
+Error fetching fit from worker at port 81: could not convert string to float: '94e413e5-9a44-440a-960e-8ef8ced6f421'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '4959b613-1f34-4b27-b0ee-01b793051b37'
+Error fetching fit from worker at port 81: could not convert string to float: '4959b613-1f34-4b27-b0ee-01b793051b37'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '1c192192-9622-44b7-8912-caf6bfb42f6c'
+Error fetching fit from worker at port 81: could not convert string to float: '1c192192-9622-44b7-8912-caf6bfb42f6c'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'c412b075-f783-4f98-b1a3-b5fc07928c1b'
+Error fetching fit from worker at port 81: could not convert string to float: 'c412b075-f783-4f98-b1a3-b5fc07928c1b'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '860767ba-49e4-4c95-922c-c9ff7d37dec7'
+Error fetching fit from worker at port 81: could not convert string to float: '860767ba-49e4-4c95-922c-c9ff7d37dec7'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '5f37ea2f-179d-4cf8-9def-a7a9882d3cc8'
+Error fetching fit from worker at port 81: could not convert string to float: '5f37ea2f-179d-4cf8-9def-a7a9882d3cc8'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'f410cde3-8d3b-4b28-9180-4b158e556f1e'
+Error fetching fit from worker at port 81: could not convert string to float: 'f410cde3-8d3b-4b28-9180-4b158e556f1e'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: 'e3f228ea-04f3-4fcc-b955-c0e1c2884b3a'
+Error fetching fit from worker at port 81: could not convert string to float: 'e3f228ea-04f3-4fcc-b955-c0e1c2884b3a'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '7fec21c6-41b9-4ce9-acab-b1ba21fc225f'
+Error fetching fit from worker at port 81: could not convert string to float: '7fec21c6-41b9-4ce9-acab-b1ba21fc225f'
+ at AggregationMaster
+Error at AggregationMaster: could not convert string to float: '980ed91f-e69c-4ac2-b147-0452ec02f16c'
+Error fetching fit from worker at port 81: could not convert string to float: '980ed91f-e69c-4ac2-b147-0452ec02f16c'
+ at AggregationMaster
