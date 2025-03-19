@@ -1,9 +1,0 @@
-Network chimera-network already exists. Skipping creation.
-Successfully built 'sgd1' docker image.
-Successfully ran 'sgd1' container.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd1'.
-Successfully built 'sgd2' docker image.
-Successfully ran 'sgd2' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd2'.
-Serving ParameterServerMaster at port 8082...
-Error at ParameterServerMaster: HTTPConnectionPool(host='localhost', port=81): Read timed out. (read timeout=100.0)

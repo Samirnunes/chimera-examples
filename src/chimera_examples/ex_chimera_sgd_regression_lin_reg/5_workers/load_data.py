@@ -1,3 +1,3 @@
-from chimera_examples.datasets.regression.heart_rate.load import load_heart_rate
+from chimera_examples.datasets.regression.wine_quality.load import load_wine_quality
 
-load_heart_rate(5)
+load_wine_quality(5)

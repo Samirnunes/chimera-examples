@@ -3,13 +3,7 @@ from ucimlrepo import fetch_ucirepo
 
 
 def load_adult(num_partitions: int) -> None:
-    """Loads the Adult dataset and splits it into the specified number of partitions.
-
-    Args:
-        num_partitions: The number of partitions to create. Must be >= 2.
-    """
-    if num_partitions < 2:
-        raise ValueError("num_partitions must be at least 2.")
+    """Loads the Adult dataset and splits it into the specified number of partitions."""
 
     adult = fetch_ucirepo(id=2)
     X = adult.data.features

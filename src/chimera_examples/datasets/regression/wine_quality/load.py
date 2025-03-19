@@ -2,12 +2,13 @@ import pandas as pd
 from ucimlrepo import fetch_ucirepo
 
 
-def load_bank_marketing(num_partitions: int) -> None:
-    """Loads the Bank Marketing dataset and splits it into the specified number of partitions."""
+def load_wine_quality(num_partitions: int) -> None:
+    """Loads the Wine Quality dataset and splits it into the specified number of partitions.
+    """
 
-    bank_marketing = fetch_ucirepo(id=222)
-    X = bank_marketing.data.features
-    y = bank_marketing.data.targets
+    wine_quality = fetch_ucirepo(id=186)
+    X = wine_quality.data.features
+    y = wine_quality.data.targets
 
     data_len = len(X)
     partition_size = data_len // num_partitions
