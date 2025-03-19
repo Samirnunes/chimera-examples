@@ -1,60 +1,9 @@
 Network chimera-network already exists. Skipping creation.
-Network chimera-network already exists. Skipping creation.
-Network chimera-network already exists. Skipping creation.
 Successfully built 'sgd1' docker image.
 Successfully ran 'sgd1' container.
 Added DNS entry 'sgd2:192.168.10.3' to container 'sgd1'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd1'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd1'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd1'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd1'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd1'.
 Successfully built 'sgd2' docker image.
 Successfully ran 'sgd2' container.
 Added DNS entry 'sgd1:192.168.10.2' to container 'sgd2'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd2'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd2'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd2'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd2'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd2'.
-Successfully built 'sgd3' docker image.
-Successfully ran 'sgd3' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd3'.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd3'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd3'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd3'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd3'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd3'.
-Successfully built 'sgd4' docker image.
-Successfully ran 'sgd4' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd4'.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd4'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd4'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd4'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd4'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd4'.
-Successfully built 'sgd5' docker image.
-Successfully ran 'sgd5' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd5'.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd5'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd5'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd5'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd5'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd5'.
-Successfully built 'sgd6' docker image.
-Successfully ran 'sgd6' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd6'.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd6'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd6'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd6'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd6'.
-Added DNS entry 'sgd7:192.168.10.8' to container 'sgd6'.
-Successfully built 'sgd7' docker image.
-Successfully ran 'sgd7' container.
-Added DNS entry 'sgd1:192.168.10.2' to container 'sgd7'.
-Added DNS entry 'sgd2:192.168.10.3' to container 'sgd7'.
-Added DNS entry 'sgd3:192.168.10.4' to container 'sgd7'.
-Added DNS entry 'sgd4:192.168.10.5' to container 'sgd7'.
-Added DNS entry 'sgd5:192.168.10.6' to container 'sgd7'.
-Added DNS entry 'sgd6:192.168.10.7' to container 'sgd7'.
-Serving ParameterServerMaster at port 8080...
+Serving ParameterServerMaster at port 8082...
+Error at ParameterServerMaster: HTTPConnectionPool(host='localhost', port=81): Read timed out. (read timeout=100.0)

@@ -6,7 +6,7 @@ import requests  # type: ignore
 
 def make_post_request(request_id: Any) -> None:
     """Makes a single POST request to the specified endpoint."""
-    url = "http://localhost:8080/v1/chimera-parameter-server/fit"
+    url = "http://localhost:8082/v1/chimera-parameter-server/fit"
     try:
         start_time = time.time()
         response = requests.post(url)  # POST request
