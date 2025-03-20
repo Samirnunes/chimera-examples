@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def create_histograms_and_metrics(time_json_path: str, folder: str) -> None:
+def chimera_plot_histograms_and_metrics(time_json_path: str, folder: str) -> None:
     """
     Creates histograms and calculate metrics from a JSON file containing worker and master times.
 
@@ -47,4 +47,4 @@ for folder in folders:
     folderpath = Path(f"src/chimera_examples/{folder}")
     for time_json in folderpath.iterdir():
         if time_json.is_file():
-            create_histograms_and_metrics(str(time_json), str(folder))
+            chimera_plot_histograms_and_metrics(str(time_json), str(folder))
