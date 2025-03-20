@@ -1,0 +1,2 @@
+Mean Time (s) = 0.2128
+Std Deviation Time (s) = 0.0152
