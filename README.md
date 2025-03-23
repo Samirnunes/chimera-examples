@@ -6,7 +6,7 @@
 
 - `ex_chimera_bagging_classification_rand_forest`
     - unprocessed `diabetes` dataset
-    - run with 1 - 4 workers
+    - run with 1 - 4 workers (decision tree)
     - times histograms for each endpoint
 
         - 1 worker
@@ -47,7 +47,7 @@
 
 - `ex_chimera_bagging_regression_rand_forest`
     - unprocessed `heart_rate` dataset
-    - run with 1 - 4 workers
+    - run with 1 - 4 workers (decision tree)
     - times histograms for each endpoint
         - 1 worker
         <p align="center">
@@ -85,7 +85,7 @@
 - `ex_chimera_sgd_classification_log_reg`
     - unprocessed `diabetes` dataset
     - maximum of 200 iterations
-    - run with 1 - 7 workers
+    - run with 1 - 7 workers (logistic regressor)
     - times histograms for each endpoint
         - 1 worker
         <p align="center">
@@ -153,7 +153,7 @@
 - `ex_chimera_sgd_regression_lin_reg`
     - unprocessed `wine_quality` dataset
     - maximum of 200 iterations
-    - run with 1 - 7 workers
+    - run with 1 - 7 workers (linear regressor)
     - times histograms for each endpoint
         - 1 worker
         <p align="center">
@@ -256,7 +256,7 @@
 
 - `ex_sklearn_bagging_regression_rand_forest`
     - unprocessed `heart_rate` dataset
-    - run with 1 - 4 estimators
+    - run with 1 - 4 estimators (decision tree)
     - times histograms for each endpoint
         - 1 estimator
         <p align="center">
