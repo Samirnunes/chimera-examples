@@ -218,7 +218,11 @@
             <img width="500" src="./src/chimera_examples/ex_chimera_sgd_regression_lin_reg/7_workers_time_ex_chimera_sgd_regression_lin_reg_worker_http_localhost_81_v1_chimera_sgd_fit_step.png" alt="Total Time">
         <p>
 
-### Classification Metrics on Validation Set
+### Classification Metrics on Validation
+
+[TODO]
+
+### Regression Metrics on Validation
 
 [TODO]
 
@@ -292,6 +296,10 @@
             <img width="500" src="./src/chimera_examples/ex_sklearn_sgd_regression_lin_reg/ex_sklearn_sgd_regression_lin_reg_time.png" alt="Total Time">
         <p>
 
-### Classification Metrics on Validation Set
+### Classification Metrics on Validation
+
+[TODO]
+
+### Regression Metrics on Validation
 
 [TODO]
