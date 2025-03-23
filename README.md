@@ -1,6 +1,6 @@
 # Chimera Examples
 
-## Chimera
+## Chimera Times
 
 - `ex_chimera_bagging_classification_rand_forest`
     - unprocessed `diabetes` dataset
@@ -214,7 +214,7 @@
             <img width="500" src="./src/chimera_examples/ex_chimera_sgd_regression_lin_reg/7_workers_time_ex_chimera_sgd_regression_lin_reg_worker_http_localhost_81_v1_chimera_sgd_fit_step.png" alt="Total Time">
         <p>
 
-## Scikit-learn
+## Scikit-learn Times
 
 - `ex_sklearn_bagging_classification_rand_forest`
     - unprocessed `diabetes` dataset
