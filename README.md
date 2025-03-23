@@ -224,7 +224,7 @@
 
 ## Scikit-learn
 
-## Times
+### Times
 
 - `ex_sklearn_bagging_classification_rand_forest`
     - unprocessed `diabetes` dataset
