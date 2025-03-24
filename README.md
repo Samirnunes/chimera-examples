@@ -296,10 +296,10 @@
             <img width="500" src="./src/chimera_examples/ex_sklearn_sgd_regression_lin_reg/ex_sklearn_sgd_regression_lin_reg_time.png" alt="Total Time">
         <p>
 
-### Classification Metrics on Validation
+### Classification Metrics on Test Data (Holdout Method)
 
 [TODO]
 
-### Regression Metrics on Validation
+### Regression Metrics on Test Data (Holdout Method)
 
 [TODO]
