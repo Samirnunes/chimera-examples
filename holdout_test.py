@@ -1,5 +1,4 @@
 import json
-from typing import Any, Dict
 
 import numpy as np
 import pandas as pd
@@ -14,7 +13,7 @@ from sklearn.metrics import (
 
 def holdout_classification_test(
     X_test_path: str, y_test_path: str, fit_endpoint: str, predict_endpoint: str
-) -> Dict[str, Any]:
+) -> None:
     """
     Performs a holdout classification test using a remote model via API endpoints.
 
@@ -76,16 +75,15 @@ def holdout_classification_test(
 
     print("Evaluating the model...")
     y_true = y_test.values.ravel()
-    report = classification_report(y_true, np.array(y_pred) > 0.5)
+    metrics = {"report": classification_report(y_true, np.array(y_pred) > 0.5)}
 
-    print(f"Classification Report:\n{report}")
-
-    return {"classification_report": report}
+    with open("classification_metrics.json", "w") as f:
+        json.dump(metrics, f)
 
 
 def holdout_regression_test(
     X_test_path: str, y_test_path: str, fit_endpoint: str, predict_endpoint: str
-) -> Dict[str, Any]:
+) -> None:
     """
     Performs a holdout regression test using a remote model via API endpoints.
 
@@ -147,23 +145,21 @@ def holdout_regression_test(
 
     print("Evaluating the model...")
     y_true = y_test.values.ravel()
-    mse = mean_squared_error(y_true, y_pred)
-    mae = mean_absolute_error(y_true, y_pred)
-    r2 = r2_score(y_true, y_pred)
 
-    print(f"MSE: {mse}")
-    print(f"MAE: {mae}")
-    print(f"R2 Score:\n{r2}")
+    metrics = {
+        "mse": mean_squared_error(y_true, y_pred),
+        "mae": mean_absolute_error(y_true, y_pred),
+        "r2": r2_score(y_true, y_pred),
+    }
 
-    return {"mse": mse, "r2": r2}
+    with open("regression_metrics.json", "w") as f:
+        json.dump(metrics, f)
 
 
 if __name__ == "__main__":
-    print(
-        holdout_classification_test(
-            "X_test.csv",
-            "y_test.csv",
-            "http://localhost:8082/v1/chimera-aggregation/fit",
-            "http://localhost:8082/v1/chimera-aggregation/predict",
-        )
+    holdout_classification_test(
+        "X_test.csv",
+        "y_test.csv",
+        "http://localhost:8082/v1/chimera-aggregation/fit",
+        "http://localhost:8082/v1/chimera-aggregation/predict",
     )
