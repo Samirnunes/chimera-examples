@@ -1,0 +1,8 @@
+http://localhost:81/v1/chimera-model/fit worker endpoint latency = 0.8076 s
+http://localhost:83/v1/chimera-model/fit worker endpoint latency = 0.8076 s
+http://localhost:82/v1/chimera-model/fit worker endpoint latency = 0.8544 s
+http://localhost:8082/v1/chimera-aggregation/fit master endpoint latency = 0.8554 s
+http://localhost:81/v1/chimera-model/predict worker endpoint latency = 10.9911 s
+http://localhost:82/v1/chimera-model/predict worker endpoint latency = 8.7211 s
+http://localhost:83/v1/chimera-model/predict worker endpoint latency = 5.708 s
+http://localhost:8082/v1/chimera-aggregation/predict master endpoint latency = 11.308 s

@@ -1,0 +1,16 @@
+Network chimera-network already exists. Skipping creation.
+Successfully built 'tree1' docker image.
+Network chimera-network already exists. Skipping creation.
+Successfully built 'tree1' docker image.
+Successfully ran 'tree1' container.
+Added DNS entry 'tree2:192.168.10.3' to container 'tree1'.
+Added DNS entry 'tree3:192.168.10.4' to container 'tree1'.
+Successfully built 'tree2' docker image.
+Successfully ran 'tree2' container.
+Added DNS entry 'tree1:192.168.10.2' to container 'tree2'.
+Added DNS entry 'tree3:192.168.10.4' to container 'tree2'.
+Successfully built 'tree3' docker image.
+Successfully ran 'tree3' container.
+Added DNS entry 'tree1:192.168.10.2' to container 'tree3'.
+Added DNS entry 'tree2:192.168.10.3' to container 'tree3'.
+Serving AggregationMaster at port 8082...
